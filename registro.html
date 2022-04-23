@@ -30,41 +30,54 @@
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-          <!-- test -->
-          <div class="dropdown ms-1 ms-lg-0">
-            <a class="avatar avatar-sm p-0 show" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="true">
-                <img class="avatar-img rounded-circle"  border-radius="0.25rem" width="40" height="40" src="src/imagenes/User.jpg" alt="avatar">
-            </a>
-            <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3 show" aria-labelledby="profileDropdown" data-bs-popper="none">
-                <!-- Profile info -->
-                <li class="px-3">
-                    <div class="d-flex align-items-center">
-                        <!-- Avatar -->
-                        <div class="avatar me-3">
-                            <img class="avatar-img rounded-circle shadow"  border-radius="0.25rem" width="40" height="40" src="src/imagenes/User.jpg" alt="avatar">
-                        </div>
-                        <div>
-                            <a class="h6" href="#">Aquiles Vailo</a>
-                            <p class="small m-0">AquilesVailo@gmail.com</p>
-                        </div>
-                    </div>
-                    <hr>
-                </li>
-                <!-- Links -->
-                <li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>Editar perfil</a></li>
-                <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Configuracion de Cuenta</a></li>
-                <li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Ayuda</a></li>
-                <li><a class="dropdown-item bg-danger-soft-hover" href="#"><i class="bi bi-power fa-fw me-2"></i>Cerrar Session</a></li>
-            </ul>
-        </div>
-          <!-- test -->
         </form>
       </div>
     </div>
   </nav>
 <body>
-
-
-
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
 </body>
 </html>
